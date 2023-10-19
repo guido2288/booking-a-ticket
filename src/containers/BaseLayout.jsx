@@ -7,7 +7,6 @@ import StepLayout from "./StepLayout"
 const BaseLayout = () => {
 
   const [state, send] = useMachine(bookingMachine);
-  console.log(state.value)
 
   return (
     <div className="flex flex-col justify-center items-center">

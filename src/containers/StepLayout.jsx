@@ -9,7 +9,7 @@ const StepLayout = ({state, send}) => {
     if(state.matches("inicial")) return <Welcome send={send}/>;
     if(state.matches("search")) return <Search send={send}/>;
     if(state.matches("tickets")) return <Tickets send={send}/>;
-    if(state.matches("passengers")) return <Passengers send={send}/>;
+    if(state.matches("passengers")) return <Passengers send={send} state={state}/>;
     return null;
   }
 

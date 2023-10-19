@@ -1,7 +1,7 @@
 const Nav = ({state, send}) => {
 
   const goToWelcome = () => {
-    send("CANCEL");
+    send("CANCEL", {passengers:[], selectedCountry:""});
   }
 
   return (
