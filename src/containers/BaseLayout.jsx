@@ -8,6 +8,7 @@ const BaseLayout = () => {
 
   const [state, send] = useMachine(bookingMachine);
 
+
   return (
     <div className="flex flex-col justify-center items-center">
       <Nav state={state} send={send}/>
