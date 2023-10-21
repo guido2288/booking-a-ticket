@@ -1,7 +1,7 @@
 # Booking a ticket
 
 ## Introducción
-App de flujo de comprar boletos para un vuelo, a travez de diferentes vistas, nos permite seleccionar el destino y agregar la cantidad de pasajeros deseados.
+App de flujo de comprar boletos para un vuelo, a través de diferentes vistas, nos permite seleccionar el destino y agregar la cantidad de pasajeros deseados.
 
 ## Tecnologias
  - React
