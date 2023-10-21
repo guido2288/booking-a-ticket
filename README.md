@@ -1,8 +1,14 @@
-# React + Vite
+# Booking a ticket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción
+App de flujo de comprar boletos para un vuelo, a travez de diferentes vistas, nos permite seleccionar el destino y agregar la cantidad de pasajeros deseados.
 
-Currently, two official plugins are available:
+## Tecnologias
+ - React
+ - Xstate
+ - Tailwind
+I
+## Deploy
+[Deploy-Site](https://guido2288.github.io/booking-a-ticket/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Print de la App](./public/images/Print.png)
